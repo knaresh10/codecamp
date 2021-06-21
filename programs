@@ -1,0 +1,26 @@
+#to calculate gcd using subtraction:
+num1=24
+num2=30
+while True:
+    if num1>=num2:
+        num1=num1-num2
+    else:
+        num1,num2=num2,num1
+    if num1==0:
+        break
+print(num2)
+
+
+
+
+#to calculate gcd using modulo divison:
+num1=24
+num2=30
+while True:
+    if num1>=num2:
+        num1=num1%num2
+    else:
+        num1,num2=num2,num1
+    if num1==0:
+        break
+print(num2)
